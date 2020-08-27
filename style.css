@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* general styling */
+*{
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+   
+}
+.font-white{
+    color: #ffffff;
+}
+.font-size-12{
+    font-size: 12px;
+}
+ .font-size-10{
+     font-size: 10px;
+ }
+ .tranparency{
+    background: rgba(17, 14, 15, 0.445);
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: #ffffff;
+} 
+.text-decoration-none{
+    text-decoration: none; 
+}
+.active {
+     background-color: #222121 !important; 
+     
+}
+
+/*particular styling */
+
+.header{
+   height: 120vh;
+    background-image: url("banner3.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire*/
+    position: relative;
+  
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.brand-name{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+.book-now-menu-button{
+    border: .5px solid #ffffff;
+    border-radius: 35px;
+}
+.nav-item-custom{
+    margin-right: 30px;
+    transition: .1s ease-in-out;
+}
+.nav-item-custom:hover{
+   border-bottom: 1.5px solid #ffffff ;
+}
+.form-section{
+    width: 500px;
+    background-color: rgba(17, 14, 15, 0.7);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    left: 60px;
+}
+.btn-check{
+    background-color: #bb0a77;
+    color: #ffffff;
+}
+.btn-check:hover{
+    color: #ffffff;
+}
+
+.footer{
+    padding-top: 30px;
+    background-color: black;
+    font-size: 12px;
+}
+.footer-title{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+}
+.payment-method{
+    border: .2px solid white;
+    padding: 5px;
+    margin: 5px;
+}
+.footer-copyright{
+    background-color: #bb0a77;
+}
